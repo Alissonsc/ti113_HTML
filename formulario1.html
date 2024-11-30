@@ -8,6 +8,8 @@
 </head>
 <body>
     
+    <h1>Preencha o fomulário abaixo</h1>
+
     <form action="" method="get">
         <fieldset>
             <legend>
@@ -17,15 +19,15 @@
              <table>
                 <tr>
                     <td> <label for="txt_nome">Nome:</label></td>
-                        <td> <input required type="text" name="txt_nome" id="txt_nome"></td>
+                        <td> <input required type="text" name="txt_nome" id="txt_nome">&nbsp; &nbsp; &nbsp;</td> 
                          <td> <label for="txt_sobrenome">Sobrenome:</label></td>
                         <td> <input required type="text" name="txt_sobrenome" id="txt_sobrenome"></td>
                 </tr>
                 <tr>
                          <td> <label for="txt_data_nascimento">Nascimento:</label></td>
-                          <td> <input placeholder="dd" size="1" type="text" name="txt_data_nascimento" id="txt_data_nascimento">
-                            <input placeholder="mm" size="1" type="text" name="txt_data_nascimento" id="txt_data_nascimento">
-                            <input placeholder="aaa" size="3" type="text" name="txt_data_nascimento" id="txt_data_nascimento">
+                          <td> <input placeholder="dd" size="2" type="text" name="txt_data_nascimento" id="txt_data_nascimento">
+                            <input placeholder="mm" size="2" type="text" name="txt_data_nascimento" id="txt_data_nascimento">
+                            <input placeholder="aaaa" size="4" type="text" name="txt_data_nascimento" id="txt_data_nascimento">
                          </td>
                 </tr>
                 <tr>
@@ -35,7 +37,7 @@
 
                     <tr>
                         <td><label for="txt_cpf">CPF:</label></td>
-                        <td><input size="8" type="text" name="txt_cpf" id="txt_cpf"> - <input size="2" type="text" name="txt_cpf" id="txt_cpf"></td>
+                        <td><input size="11" type="text" name="txt_cpf" id="txt_cpf"> - <input size="2" type="text" name="txt_cpf" id="txt_cpf"></td>
                         <td><br></td>
 
                     </tr>
@@ -58,7 +60,7 @@
             <table>
                 <tr>
                     <td> <label for="txt_rua">Rua:</label></td>
-                        <td> <input required type="text" name="txt_rua" id="txt_rua"></td>
+                        <td> <input required type="text" name="txt_rua" id="txt_rua">&nbsp; &nbsp; &nbsp;</td>
                          <td> <label for="txt_numero">Número:</label></td>
                         <td> <input required type="text" name="txt_numero" id="txt_numero"></td>
                 </tr>
@@ -67,7 +69,7 @@
                          <td> <input required type="text" name="txt_bairro" id="txt_bairro"></td>
                 </tr>
                 <tr>
-                    <td> <label for="txt_rg">Estado:</label></td>
+                    <td> <label for="slt_uf">Estado:</label></td>
                     <td> <select name="slt_uf" id="clt_uf">
                
                         <option value="AC">Acre</option>
@@ -138,8 +140,8 @@
                         <td> <input required type="text" name="txt_email" id="txt_email"></td>
                 </tr>
                 <tr>
-                         <td> <label for="txt_imagem">Imagem de perfil:</label></td>
-                           <td> <input type="file" name="txt_imagem" id="txt_imagem" accept="image/*">
+                         <td> <label for="file_perfil">Imagem de perfil:</label></td>
+                           <td> <input type="file" name="file_perfil" id="file_perfil" accept="image/*">
 
                 </tr>
                 <tr>
@@ -149,12 +151,12 @@
 
                 <tr>
                     <td> <label for="txt_senha">Senha:</label></td>
-                    <td> <input required type="text" name="txt_senha" id="txt_senha"></td>
+                    <td> <input required type="password" name="txt_senha" id="txt_senha"></td>
                 </tr>
 
                 <tr>
                     <td> <label for="txt_confirme">Confirme a senha:</label></td>
-                    <td> <input required type="text" name="txt_confirme" id="txt_confirme"></td>
+                    <td> <input required type="password" name="txt_confirme" id="txt_confirme"></td>
                 </tr>
 
 
