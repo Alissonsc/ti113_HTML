@@ -1,0 +1,36 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #0e347a;
+}
+form {
+    padding: 50px;
+    margin: 0 auto;
+    width: 40%;
+    height: 500px;
+    background-color: rgb(202, 216, 219);
+}
+
+table {
+    color: #0e347a;
+    width: 100%;
+}
+
+input {
+    background-color: #0e347a;
+    margin: 8px 0px;
+    width: 100%
+}
+
+textarea {
+    background-color: #0e347a;
+    margin: 5px 0px;
+    width: 100%;
+}
+button{
+    color: aliceblue;
+    background-color: #0e347a;
+    padding: 10px 30px;
+}
+::placeholder{
+    color: aliceblue;
+}
