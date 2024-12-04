@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    background-color: #3a3838;
+    height: 200px;
+}
+
+h1.basic90{
+    color: #a19f9f;
+    margin-bottom: 0;
+}
+
+h3.basic90{
+    color: #a19f9f;
+    margin-top: 5px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.tab1lin2 {
+    background-color: #252222;
+}
+
+.tab1lin2 td {
+    padding: 15px 30px;
+}
+
+.tab1lin2 td a {
+    color: #a19f9f;
+}
+.btn_submit{
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+}
+.input_submit{
+    padding: 5px 10px;
+    background-color: #333;
+}
+.input_submit::placeholder{
+    color: #a19f9f;
+}
