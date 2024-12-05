@@ -1,6 +1,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #0e347a;
+    background: linear-gradient(to bottom, #121117, #4f5d76);
+    height: 100vh;
 }
 form {
     padding: 50px;
@@ -18,7 +19,7 @@ table {
 input {
     background-color: #0e347a;
     margin: 8px 0px;
-    width: 100%
+    width: 95%
 }
 
 textarea {
@@ -33,4 +34,7 @@ button{
 }
 ::placeholder{
     color: aliceblue;
+}
+.mesangem{
+    vertical-align: top;
 }

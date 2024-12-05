@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: #333;
+    color: #ddd;
+    height: 200px;
+}
+
+#titulo {
+    margin-bottom: 0;
+}
+
+#subtitulo {
+    margin-top: 2px;
+}
+
+#tab1 {
+    margin: 0 auto;
+    width: 75%;
+}
+
+#tab1 .linha1 input {
+    width: 40%;
+    background-color: #222;
+    padding: 6px;
+    border-width: 1px;
+    border-color: #ddd;
+}
+
+#tab1 .linha1 button {
+    background-color: orange;
+    color: #ddd;
+    padding: 7px 10px;
+}
+
+#tab1 .linha2 {
+    background-color: #222;
+}
+
+#tab1 .linha2 td {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#tab1 .linha2 td a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+#tab2 {
+    margin: 30px auto;
+    width: 75%;
+}
+
+#tab2 .col1 {
+    padding: 20px;
+    background-color: #444;
+    color: #aaa;
+}
+
+#tab2 h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+#tab2 .col1 a {
+    color: orange;
+    float: right;
+}
+
+#tab2 .col2 {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
